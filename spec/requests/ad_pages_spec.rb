@@ -9,10 +9,12 @@ describe "Ad pages" do
 
     it { should have_content("Bulletin Board") }
     it { should have_title("Bulletin Board") }
-    it { should have_selector("a.btn.btn-large.btn-primary",
-                              :text => "Sign in") }
-    it { should have_selector("a.btn.btn-large.btn-primary",
-                              :text => "Sign up") }
+    it do
+      should have_selector("a.btn.btn-large.btn-primary", :text => "Sign in")
+    end
+    it do
+      should have_selector("a.btn.btn-large.btn-primary", :text => "Sign up")
+    end
     it_should_behave_like "a page header"
     it_should_behave_like "a page footer"
   end
