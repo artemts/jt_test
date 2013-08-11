@@ -35,6 +35,10 @@ html, body {
 /* misc
 ================================================== */
 
+body {
+  padding-top: 50px; /* compensating for fixed navbar */
+}
+
 .center {
   text-align: center;
 }
