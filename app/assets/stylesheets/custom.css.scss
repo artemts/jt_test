@@ -1,0 +1,40 @@
+/* sticky footer styles
+================================================== */
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  height: 100%;
+  height: auto !important;
+  min-height: 100%;
+  margin: 0 auto -52px;
+  padding: 0 0 52px;
+}
+
+/* header
+================================================== */
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* footer
+================================================== */
+
+#footer {
+  background-color: #f5f5f5;
+  height: 52;
+  hr {
+    margin: 0;
+  }
+}
+
+/* misc
+================================================== */
+
+.center {
+  text-align: center;
+}
