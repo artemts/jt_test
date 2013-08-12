@@ -10,6 +10,8 @@
     #wrap
       = render "layouts/header"
       .container
+        = render "shared/flash"
         = yield
     = render "layouts/footer"
-    = debug(params) if Rails.env.development?
+    .container
+      = debug(params) if Rails.env.development?

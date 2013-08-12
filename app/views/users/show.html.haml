@@ -1,0 +1,9 @@
+- provide(:title, @user.login)
+.row
+  .col-lg-1
+    = gravatar_for @user
+  .col-lg-4
+    %p 
+      = @user.login
+      %br/
+      = @user.email

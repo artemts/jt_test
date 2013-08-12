@@ -8,8 +8,8 @@ describe "Static pages" do
   describe "About page" do
     before { visit about_path }
 
-    it { should have_content("About application") }
-    it { should have_title("#{base_title} | About") }
+    it { should have_content "About application" }
+    it { should have_title "#{base_title} | About" }
     it_should_behave_like "a page header"
     it_should_behave_like "a page footer"
   end
@@ -17,8 +17,8 @@ describe "Static pages" do
   describe "Contact page" do
     before { visit contact_path }
 
-    it { should have_content("Contact author") }
-    it { should have_title("#{base_title} | Contact") }
+    it { should have_content "Contact author" }
+    it { should have_title "#{base_title} | Contact" }
     it_should_behave_like "a page header"
     it_should_behave_like "a page footer"
   end

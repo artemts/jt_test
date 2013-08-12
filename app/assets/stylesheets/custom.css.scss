@@ -1,3 +1,6 @@
+/* mixins, variables, etc.
+================================================== */
+
 /* sticky footer styles
 ================================================== */
 
@@ -32,13 +35,27 @@ html, body {
   }
 }
 
+/* forms
+================================================== */
+
+#error_explanation {
+  color: #f00;
+  li {
+    list-style: none;
+  }
+}
+
 /* misc
 ================================================== */
 
 body {
-  padding-top: 50px; /* compensating for fixed navbar */
+  padding-top: 60px; /* compensating for fixed navbar */
 }
 
 .center {
   text-align: center;
+}
+
+.debug_dump {
+  margin-top: 5px;
 }
