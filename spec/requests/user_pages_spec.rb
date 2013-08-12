@@ -1,5 +1,5 @@
 require 'spec_helper'
-require "support/shared_examples_for_pages.rb"
+require "support/shared_examples_for_pages"
 
 describe "User pages" do
   subject { page }

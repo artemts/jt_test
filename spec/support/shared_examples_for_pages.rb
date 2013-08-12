@@ -3,7 +3,7 @@ require "spec_helper"
 shared_examples "a page header" do
   it { should have_link "Home", :href => root_path }
   it { should have_link "Users" }
-  it { should have_link "Sign in" }
+  it { should have_link "Sign in", :href => signin_path }
 end
 
 shared_examples "a page footer" do
